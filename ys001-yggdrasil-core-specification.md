@@ -123,7 +123,7 @@ appropriate.
 
 Each byte is composed of 8 bits where:
 
-1. The most-significant bit (MSB) is a "continuation byte" - set to 1 if there
+1. The most-significant bit (MSB) is a "continuation bit" - set to 1 if there
    is another byte following this one, or set to 0 if this is the last byte
 2. The remaining 7 bits contain the next 7 least-significant bits of the source
    `varu64` value
