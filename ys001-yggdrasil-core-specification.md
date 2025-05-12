@@ -134,7 +134,7 @@ To encode a `varu64`, start with an empty byte array. Take the least-significant
 7 bits of the source value and place them into the least-significant 7 bits of
 your first byte, and then set the most-significant bit of the first byte to 0.
 
-Repeat the process by right-shifting 7 bytes from the source value. If the
+Repeat the process by right-shifting 7 bits from the source value. If the
 shifted source value is still greater than zero, append the next byte by taking
 the next 7 least-significant bits and set the most-significant bit to 1.
 
